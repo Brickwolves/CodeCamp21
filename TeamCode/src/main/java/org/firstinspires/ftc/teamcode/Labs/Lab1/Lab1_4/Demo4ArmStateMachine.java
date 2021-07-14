@@ -5,13 +5,13 @@ import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.Servo;
 
-import org.firstinspires.ftc.teamcode.Hardware.Controls.Controller;
+import org.firstinspires.ftc.teamcode.Hardware.Controls.Controller1;
 
 
 @TeleOp(name="LAB 1.4: Switch Demo 3", group="Iterative Opmode")
 public class Demo4ArmStateMachine extends OpMode {
 	
-	Controller controller1;
+	Controller1 controller1;
 	Servo armServo;
 	
 	
@@ -21,7 +21,7 @@ public class Demo4ArmStateMachine extends OpMode {
 	@Override
 	public void init() {
 		armServo = hardwareMap.get(Servo.class, "armservo");
-		controller1 = new Controller(gamepad1);
+		controller1 = new Controller1(gamepad1);
 	}
 	
 	

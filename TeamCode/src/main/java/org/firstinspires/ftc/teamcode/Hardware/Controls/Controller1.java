@@ -2,11 +2,11 @@ package org.firstinspires.ftc.teamcode.Hardware.Controls;
 
 import com.qualcomm.robotcore.hardware.Gamepad;
 
-public class Controller {
+public class Controller1 {
     public Button circle;
     public Button LB;
     public Button LS;
-    public Controller(Gamepad gamepad){
+    public Controller1(Gamepad gamepad){
      /*
         Y O U R    C O D E    H E R E
      */
