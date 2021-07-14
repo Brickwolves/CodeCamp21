@@ -90,6 +90,7 @@ public class Inheritance {
         // Methods
             // drive method
             // honk
+            // load gas
             // loadItems (I list them out)
         // Attributes
             // max_gallons
@@ -100,14 +101,19 @@ public class Inheritance {
     // 2) make electric car class
         // Methods
             // drive method
+            // load gas
             // honk
             // ------------
             // charge
+        // Attributes
+            // max_charge
+            // charging_time
     // 3) vehicle
         // Go over super
         // Methods
             // drive method
             // honk
+            // load gas
         // Attributes
             // max_gallons
             // number of passengers
