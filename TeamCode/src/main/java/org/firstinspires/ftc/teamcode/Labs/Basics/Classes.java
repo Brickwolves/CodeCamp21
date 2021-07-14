@@ -165,14 +165,20 @@ public class Classes {
      */
     public class Calculator3 {
 
+        // Attributes
         private int version;
         private String owner;
         private String color;
 
+        // Constructor              // Constructor Parameters
         public Calculator3(int input_version, String input_owner, String input_color){
+
+            // input_version, input_owner, input_color only exist within this constructor now
+            // We can't access these variables anywhere else.
+            // In order to store these, we need to set the attributes to the respective pieces
             version = input_version;
             owner   = input_owner;
-            color   = input_owner;
+            color   = input_color;
         }
 
         public int getVersion(){

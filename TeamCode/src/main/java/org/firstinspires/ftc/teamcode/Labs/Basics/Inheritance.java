@@ -1,5 +1,13 @@
 package org.firstinspires.ftc.teamcode.Labs.Basics;
 
+/*
+
+        U N F I N I S H E D
+
+ */
+
+
+
 public class Inheritance {
     public void main(){
         String[] items2Load = {"bike", "skateboard"};
@@ -40,6 +48,12 @@ public class Inheritance {
         }
         public void printAllItems(){
             // GOAL: Use a loop to print through all non-null items
+            // PARAMETER: void
+            // HINT: You can check if something is null like so:
+            //  String[] arrayOfStrings = new String[3];
+            //  if (arrayOfStrings[0] == null) {
+            //      // do stuff
+            //  }
         }
         public int getNumItems(){
             // GOAL: Retrieve number of items in the list loadedItems
@@ -59,6 +73,48 @@ public class Inheritance {
             // PARAMETER: List of Items
         }
     }
+
+
+    public class ElectricCar extends Vehicle {
+
+        private int recharging_time;
+        private int max_distance_per_charge;
+        public ElectricCar(String input_owner, int input_age, int input_gallons) {
+            super(input_owner, input_age, input_gallons);
+        }
+    }
+
+
+    // 1) Make truck class
+        // Go through private and public
+        // Methods
+            // drive method
+            // honk
+            // loadItems (I list them out)
+        // Attributes
+            // max_gallons
+            // number of passengers
+            // company
+            //-----------
+            // truck bed
+    // 2) make electric car class
+        // Methods
+            // drive method
+            // honk
+            // ------------
+            // charge
+    // 3) vehicle
+        // Go over super
+        // Methods
+            // drive method
+            // honk
+        // Attributes
+            // max_gallons
+            // number of passengers
+            // company
+
+    // remove drive, gallon, honk from truck and electric car
+    // maybe show overriding
 
 
 
