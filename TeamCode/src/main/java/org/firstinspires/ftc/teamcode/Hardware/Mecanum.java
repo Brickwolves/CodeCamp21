@@ -43,7 +43,7 @@ public class Mecanum {
    /**
     * @param power
     */
-   public void setDrivePower(double power){
+   public void setDrivePower(double drive, double strafe, double turn, double power){
         /*
 
                 Y O U R   C O D E   H E R E
