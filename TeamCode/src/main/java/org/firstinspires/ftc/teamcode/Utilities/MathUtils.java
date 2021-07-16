@@ -25,8 +25,8 @@ public class MathUtils {
     }
 
 
-    public static double shift(Point p, double shiftAngle){
-        return 0;
+    public static Point shift(Point p, double shiftAngle){
+        return new Point(0, 0);
     }
 
 
